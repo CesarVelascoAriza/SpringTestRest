@@ -16,7 +16,7 @@ public class PersonaController {
 		return new Person();
 	}
 	///@RequestMapping
-	 @PostMapping(path="/add")
+	@PostMapping(path="/add")
 	public Person Addperson(@RequestBody Person per) {
 		List<Person> pe= new ArrayList<>();
 		per.getId();
